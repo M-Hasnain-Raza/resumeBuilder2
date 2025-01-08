@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-color: #9333ea !important;
+  color: white !important;
+  border: 0px !important;
+
+}
+
+.box:hover>.btn {
+  display: flex;
+}
+
+.templateSize{
+  width: 350px;
+  height: 500px;
+}
+
+.subHeading {
+  font-size: x-small;
+}
+
+.sectionHeading {
+  font-size: xx-small;
+}
+
+.callOut {
+  background-image: url(./assets/callOut.jpg);
+  background-repeat: repeat-x;
+}
