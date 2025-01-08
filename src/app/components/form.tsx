@@ -1,8 +1,6 @@
 "use client";
 
-import resume3 from "../assets/resume3.png";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Globe, Dot } from "lucide-react";
 import { Button, Input } from "antd"
 import React, { useState } from "react";
 

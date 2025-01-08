@@ -1,4 +1,3 @@
-import { useState } from "react"
 
 import Templates from "../templates/page"
 

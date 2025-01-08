@@ -12,7 +12,6 @@ import Link from "next/link";
 // ];
 
 export default function HeroSection() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
 
   return (
     <div className="bg-white ">
